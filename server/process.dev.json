@@ -1,0 +1,27 @@
+{
+    "apps": [
+        {
+            "name": "Test",
+            "script": "./dist/index.js",
+            "watch": ["dist"],
+            "ignore_watch" : ["node_modules", "uploads"],
+            "watch_options": {
+                "followSymlinks": false
+            },
+            "exec_interpreter": "node",
+            "exec_mode": "cluster",
+            "source_map_support": true,
+            "node_args": [
+            ],
+            "kill_timeout": 3000,
+            "merge_logs": true,
+            "max_restarts": 20,
+            "instances": 1,
+            "max_memory_restart": "400M",
+            "env": {
+                "DEBUG": "",
+                "PROD": false
+            }
+        }
+    ]
+}

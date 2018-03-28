@@ -1,0 +1,23 @@
+.FileUploader_upload-input {
+    display: none;
+    visibility: hidden;
+}
+
+.FileUploader_upload-button {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.FileUploader-file-name-container {
+    display: inline-block;
+    width: 960px;
+    margin-top: 20px;
+}
+
+.FileUploader_file-name {
+    width: 100%;
+}
+
+.FileUploader_datetime-picker {
+    margin-left: 10px;
+}

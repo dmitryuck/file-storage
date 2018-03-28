@@ -1,0 +1,33 @@
+{
+    "name": "my-app",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "react-scripts-ts start",
+        "build": "react-scripts-ts build",
+        "test": "react-scripts-ts test --env=jsdom",
+        "eject": "react-scripts-ts eject"
+    },
+    "dependencies": {
+        "material-ui": "^1.0.0-beta.36",
+        "material-ui-icons": "^1.0.0-beta.36",
+        "moment": "^2.21.0",
+        "react": "^16.2.0",
+        "react-bootstrap": "^0.32.1",
+        "react-datetime-picker": "^1.2.1",
+        "react-dom": "^16.2.0",
+        "react-redux": "^5.0.7",
+        "react-scripts-ts": "2.13.0",
+        "redux": "^3.7.2",
+        "redux-thunk": "^2.2.0"
+    },
+    "devDependencies": {
+        "@types/jest": "^22.2.0",
+        "@types/node": "^9.4.7",
+        "@types/react": "^16.0.40",
+        "@types/react-dom": "^16.0.4",
+        "@types/redux": "^3.6.0",
+        "gulp": "^3.9.1",
+        "typescript": "^2.7.1"
+    }
+}
